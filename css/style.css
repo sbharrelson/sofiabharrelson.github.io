@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Dela+Gothic+One&display=swap');
+
+html {
+   font-size: 16px;
+   
+}
+
+
+body {
+  /* max-width: 70.25rem? */
+    /*background-image: url("../img/newspaper\ background.jpg"); 
+    opacity: 20%;*/
+    background-color:#654552;
+    line-height: 3.4375rem;
+    margin: 0; 
+    color: #F5F5F5;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+    max-width: 72.25rem;
+   
+    
+}
+
+header {
+    background-color: #BCA898;
+    padding-right: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+
+h1 { /* havigation*/
+    color: #F5F5F5;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a { /*header decoration*/
+    color: #F5F5F5;
+    text-decoration: none;
+    margin: 0 0 0 2rem;
+}
+
+h2 { /* footer*/
+   width: 12rem;
+    color: #FFFFFF;
+    margin: auto;
+    display: flex;
+}
+
+h3 {
+align-items: left;
+padding-left: 1%
+padding-right: 5%;
+
+}
+
+.big_logo {
+    width: 12rem;
+    display: flex;
+}
+
+.descriptions {
+text-align: right;
+
+}
+
+.flex-container-index {
+display: flex;
+padding-left: 2%;
+padding-bottom: 8%;
+
+}
+
+#psst {
+padding-left: 5%;
+
+}
+
+
+h4 { /* Im Sofia*/
+    
+    font-family: 'Dela Gothic One', sans-serif;
+    color: #654552;
+    width: 100rem;
+    font-family: Dela Gothic One;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.25rem; /* 108.696% */
+    letter-spacing: 0.345rem;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding-left: 25%;
+}
+
+
+h5 { /* smaller bio- >a  San  Francisco based designer 
+    with interests in graphic, web, &
+    UX / UI design */
+    color: #654552;
+    text-align: center;
+    font-family: Dela Gothic One;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.4375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6%;
+}
+
+
+h6 {
+    color: #ffffff;
+    font-family: Dela Gothic One;
+    font-size: 2.1875rem;
+    font-weight: 400;
+    line-height: 3.4375rem;
+    margin: 6%;
+    padding-left: 4rem;
+
+}
+
+.About {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: Dela Gothic One;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.4375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+#arrow {
+
+padding-left: 50%;
+padding-top: 2%;
+
+    
+    
+}
+
+
+a  {
+}
+
+
+.one{
+    padding-left: 25%;
+    display: flex;
+    padding-top: 10%;
+  }
+
+
+
+a h1:hover {
+    color: #654552;
+}
+
+a h1:visited { 
+}
+
+
+
+main {
+    background-color:#654552;
+}
+
+footer {
+    margin: auto;
+    width: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: ;
+}
+
+.selected {  
+}
+
+#headertop {
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+
+}
+
+#byline {
+    width: 50%; 
+    position: absolute; 
+    z-index: 2; 
+    top: 3rem; 
+    left: rem; 
+}
+
+#logo {
+    align-self: flex-start;
+    padding: 1rem; 
+}
+
+
+
+section {
+margin: 9.25rem auto;
+display: grid;
+grid-template-columns: repeat (12,1fr);
+grid-column-gap: 1.5rem;
+grid-auto-flow: dense;
+}
+
+
+#project_1 {
+grid-column: 2/11;
+}
+
+#description_1 {
+    grid-column: 4/8;
+    text-align: center;
+}
+
+#project_2 {
+    grid-column: 2/11;
+    }
+
+#description_2 {
+    grid-column: 3/5;
+    text-align: center;
+}
+
+#project_3 {
+    grid-column: 2/11;
+    }
+
+#description_3 {
+    grid-column: 4/8;
+    text-align: center;
+}
+
+#project_4 {
+    grid-column: 2/11;
+    }
+
+#description_4 {
+    grid-column: 4/8;
+    text-align: center;
+}
+
+#bio {
+max-width: 60rem;
+text-align: left;
+margin-left: 2%;
+
+}
+
+#hat {
+max-width: 60rem;
+text-align: left;
+margin-left: 2%;
+padding-top: 5%;
+}
+
+
+
+/* notes for mmyself
+
+10px = 0.625rem
+12px = 0.75rem
+14px = 0.875rem
+16px = 1rem (base)
+18px = 1.125rem
+20px = 1.25rem
+24px = 1.5rem
+30px = 1.875rem
+32px = 2rem */
+
