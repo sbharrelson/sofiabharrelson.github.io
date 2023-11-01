@@ -20,7 +20,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 2.5rem;
-    max-width: 72.25rem;
+   
    
     
 }
@@ -240,6 +240,7 @@ padding-left: 10%;
 
 #project_2 {
     grid-column: 3/10;
+    padding-left: 5%;
     }
 
 #description_2 {
@@ -249,19 +250,21 @@ padding-left: 10%;
 
 #project_3 {
     grid-column: 2/11;
+    padding-left: 10%;
     }
 
 #description_3 {
-    grid-column: 4/8;
+    grid-column: 3/7;
     text-align: center;
 }
 
 #project_4 {
     grid-column: 2/11;
+    padding-left: 10%;
     }
 
 #description_4 {
-    grid-column: 4/8;
+    grid-column: 3/8;
     text-align: center;
 }
 
