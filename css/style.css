@@ -3,14 +3,9 @@
 
 html {
    font-size: 16px;
-   
 }
 
-
 body {
-  /* max-width: 70.25rem? */
-    /*background-image: url("../img/newspaper\ background.jpg"); 
-    opacity: 20%;*/
     background-color:#654552;
     line-height: 3.4375rem;
     margin: 0; 
@@ -20,9 +15,6 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 2.4rem;
-   
-   
-    
 }
 
 header {
@@ -50,12 +42,6 @@ h1 { /* havigation*/
     justify-content: space-between;
 }
 
-a { /*header decoration*/
-    color: #F5F5F5;
-    text-decoration: none;
-    margin: 0 0 0 2rem;
-}
-
 h2 { /* footer*/
    width: 12rem;
     color: #FFFFFF;
@@ -63,49 +49,26 @@ h2 { /* footer*/
     display: flex;
 }
 
-h3 {
-align-items: left;
-padding-left: 5%;
-padding-left: 1%;
-
-
-}
-
-.big_logo {
-    width: 12rem;
-    display: flex;
-}
-
-.descriptions {
-text-align: right;
-
-}
-
-.flex-container-index {
-display: flex;
-padding: 5rem;
-
-}
-
-#psst {
-padding-left: 5%;
-
+h3 { /* titles for portfolio*/
+    color: #ffffff;
+    font-family: Dela Gothic One;
+    font-size: 2.1875rem;
+    font-weight: 400;
+    line-height: 3.4375rem;
+    text-align: left;
 }
 
 
 h4 { /* Im Sofia*/
-    
     font-family: 'Dela Gothic One', sans-serif;
     color: #654552;
     width: 100rem;
     font-family: Dela Gothic One;
     font-size: 4rem;
-    font-style: normal;
     font-weight: 400;
     line-height: 6.25rem; /* 108.696% */
     letter-spacing: 0.345rem;
     display: flex;
-    align-items: right;
     justify-content: space-between;
     padding-left: 45%;
 }
@@ -134,7 +97,21 @@ h6 {
     line-height: 3.4375rem;
     margin: 6%;
     padding-left: 10rem;
+}
 
+.big_logo {
+    width: 12rem;
+    display: flex;
+}
+
+.flex-container-index {
+display: flex;
+padding: 5rem;
+}
+
+#psst {
+align-items: center;
+padding-left: 17%;
 }
 
 .About {
@@ -148,19 +125,17 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
+a { /*header decoration*/
+    color: #F5F5F5;
+    text-decoration: none;
+    margin: 0 0 0 2rem;
+}
 
 #arrow {
-
 padding-left: 50%;
-padding-top: 2%;  
-    
-}
-
-
-a  {
+padding-top: 2%;   
 }
 
 .one{
@@ -174,11 +149,6 @@ a h1:hover {
 }
 
 
-main {
-    background-color:#654552;
-}
-
-
 footer {
     margin: auto;
     width: 35rem;
@@ -186,11 +156,6 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
-
-.selected {  
-
-}
-
 
 #headertop {
     width: 100%;
@@ -226,42 +191,45 @@ grid-auto-flow: dense;
 
 #project_1 {
 grid-column: 2/11;
-padding-left: 10%;
+align-items: left;
+
 }
 
 #description_1 {
-    grid-column: 3/8;
-    text-align: center;
+    grid-column: 2/4;
+    text-align: left;
 }
 
 #project_2 {
-    grid-column: 3/10;
-    padding-left: 5%;
+    grid-column: 2/10;
+    align-items: left;
+    
     }
 
 #description_2 {
-    grid-column: 3/10;
-    text-align: center;
+    grid-column: 2/4;
+    text-align: left;
 }
 
 #project_3 {
-    grid-column: 2/11;
-    padding-left: 10%;
+    grid-column: 2/10;
+    align-items: left;
+    
     }
 
 #description_3 {
-    grid-column: 3/7;
-    text-align: center;
+    grid-column: 2/6;
+    text-align: left;
 }
 
 #project_4 {
     grid-column: 2/11;
-    padding-left: 10%;
+    text-align: left;
     }
 
 #description_4 {
-    grid-column: 3/8;
-    text-align: center;
+    grid-column: 2/8;
+    text-align: left;
 }
 
 #bio {
@@ -276,9 +244,17 @@ padding: 5%;
 }
 
 #flex-container-port {
-    display: flex;
-    padding: 5rem;
+display: flex;
+padding: 5rem;
 }
+
+.upsidedown {
+align-items: right;
+padding-left: 50%;
+
+
+}
+
 
 
 /* notes for mmyself
