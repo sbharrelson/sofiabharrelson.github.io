@@ -158,16 +158,13 @@ h6 {
 #arrow {
 
 padding-left: 50%;
-padding-top: 2%;
-
-    
+padding-top: 2%;  
     
 }
 
 
 a  {
 }
-
 
 .one{
     padding-left: 25%;
@@ -180,10 +177,6 @@ a  {
 a h1:hover {
     color: #654552;
 }
-
-a h1:visited { 
-}
-
 
 
 main {
@@ -200,7 +193,7 @@ footer {
 }
 
 .selected {  
-    
+
 }
 
 #headertop {
@@ -237,19 +230,20 @@ grid-auto-flow: dense;
 
 #project_1 {
 grid-column: 2/11;
+padding-left: 10%;
 }
 
 #description_1 {
-    grid-column: 4/8;
+    grid-column: 3/8;
     text-align: center;
 }
 
 #project_2 {
-    grid-column: 2/11;
+    grid-column: 3/10;
     }
 
 #description_2 {
-    grid-column: 3/5;
+    grid-column: 3/10;
     text-align: center;
 }
 
