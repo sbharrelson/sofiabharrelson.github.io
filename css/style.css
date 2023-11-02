@@ -30,6 +30,7 @@ nav {
 }
 
 
+
 h1 { /* havigation*/
     color: #F5F5F5;
     font-family: 'Darker Grotesque', sans-serif;
@@ -55,7 +56,8 @@ h3 { /* titles for portfolio*/
     font-size: 2.1875rem;
     font-weight: 400;
     line-height: 3.4375rem;
-    text-align: left;
+    padding-left: 35%;
+
 }
 
 
@@ -160,8 +162,8 @@ footer {
 #headertop {
     width: 100%;
     display: flex;
-    align-items: right;
     justify-content: space-between;
+
 }
 
 
@@ -170,15 +172,13 @@ footer {
     position: absolute; 
     z-index: 2; 
     top: 3rem; 
-    left: rem; 
 }
-
 
 #logo {
-    align-self: flex-start;
-    padding: 1rem; 
+align-self: flex-start;
+   align-items: left;
+   padding-bottom: 2%;
 }
-
 
 section {
 margin: 9.25rem auto;
@@ -190,14 +190,15 @@ grid-auto-flow: dense;
 
 
 #project_1 {
-grid-column: 2/11;
-align-items: left;
+grid-column: 7/12;
+padding-left: 4%;
+
 
 }
 
 #description_1 {
-    grid-column: 2/4;
-    text-align: left;
+    grid-column: 3/11;
+   
 }
 
 #project_2 {
@@ -243,9 +244,8 @@ padding-bottom: 2.5%;
 padding: 5%;
 }
 
-#flex-container-port {
+#flex-container-portfolio {
 display: flex;
-padding: 5rem;
 }
 
 .upsidedown {
