@@ -106,6 +106,9 @@ display: flex;
 padding: 5rem;
 }
 
+
+
+
 #psst {
 align-items: center;
 padding-left: 20rem;
@@ -194,13 +197,23 @@ grid-auto-flow: dense;
 }
 
 
-#project_1 {
-grid-column: 2/10;
-padding-left: 10rem;
-}
+.row {
+    display: flex;
+    grid-column: 3/11;
+    row-gap: 5rem;
+    padding-left: 9rem;
+
+  }
+
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    column-gap: 5rem;
+  }
+
 
 #description_1 {
-    grid-column: 1/10;
+    grid-column: 3/10;
     text-align: justify;
     padding-left: 18rem;
     padding-right: 14rem;
@@ -224,20 +237,21 @@ padding-left: 10rem;
     text-align:justify;
     grid-column: 2/10;
 }
-    
-#flex-container-portfolio {
+   
+#project_3 {
     display: flex;
-    align-items: center;
-    padding-left: 15rem;
     flex-direction: row;
+    display: flex;
+    padding-left: 10rem;
+    column-gap: 5rem;
 }
-    
+
 
 #description_3 {
 grid-column: auto;
 grid-column: 1/10;
 padding-right: 18rem;
-padding-left: 19rem;
+padding-left: 16rem;
 padding-top: 8rem;
 padding-bottom: 6%;
 text-align: justify;
