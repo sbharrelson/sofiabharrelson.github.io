@@ -107,8 +107,6 @@ padding: 5rem;
 }
 
 
-
-
 #psst {
 align-items: center;
 padding-left: 20rem;
@@ -126,6 +124,9 @@ padding-top: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: #BCA898;
+    border-radius: 5rem;
+    
 }
 
 a { /*header decoration*/
@@ -150,12 +151,17 @@ a h1:hover {
 }
 
 .flex-container-about {
-    padding: 5rem;
     flex-direction: row;
     display: flex;
     text-align: justify;
     column-gap: 5rem;
-  
+    border: #BCA898;
+    border-width: .8rem;
+    border-style:dashed;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 1rem;
 
     }
 
@@ -172,6 +178,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -282,7 +289,7 @@ text-align: justify;
     padding-right: 15rem;
     padding-left: 20rem;
     padding-top: 8rem;
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
     text-align: justify;
     }
 
@@ -306,16 +313,9 @@ padding-right: 33rem;
 #project_6 {
 grid-column: 3/10;
    align-items: center;
-   padding-right: 3rem;
+   padding-right: 28rem;
 
 }
-
-
-
-
-
-
-
 
 
 #bio {
