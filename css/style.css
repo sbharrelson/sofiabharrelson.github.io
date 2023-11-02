@@ -195,8 +195,8 @@ grid-auto-flow: dense;
 
 
 #project_1 {
-grid-column: 9/10;
-
+grid-column: 2/10;
+padding-left: 10rem;
 }
 
 #description_1 {
