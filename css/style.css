@@ -225,10 +225,11 @@ grid-column: 9/10;
     grid-column: 2/10;
 }
     
-.flex-container-portfolio {
+#flex-container-portfolio {
     display: flex;
-    align-items: justify;
+    align-items: center;
     padding-left: 15rem;
+    flex-direction: row;
 }
     
 
@@ -236,9 +237,11 @@ grid-column: 9/10;
 grid-column: auto;
 grid-column: 1/10;
 padding-right: 18rem;
-padding-left: 18rem;
+padding-left: 19rem;
 padding-top: 8rem;
 padding-bottom: 5%;
+text-align: justify;
+
 
 }
 
