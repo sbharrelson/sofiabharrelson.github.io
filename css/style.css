@@ -147,19 +147,14 @@ a h1:hover {
 }
 
 .flex-container-about {
-    padding-left: 5rem;
-    padding-right: 10rem;
+    padding: 5rem;
     flex-direction: row;
     display: flex;
     text-align: justify;
-    padding-right: 5rem;
-    justify-content: space-around 5rem;
-    
-    
+    column-gap: 5rem;
+  
 
     }
-
-
 
 footer {
     
