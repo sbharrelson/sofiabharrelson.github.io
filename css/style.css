@@ -263,15 +263,60 @@ text-align: justify;
 
 #project_4 {
     grid-column: 5/11;
-    padding-right: 23rem;
+    padding-right: 27rem;
+
     }
 
 #description_4 {
     grid-column: 2/9;
     text-align: justify;
-    padding-left: 21rem;
+    padding-left: 20rem;
     padding-top: 10rem;
 }
+
+
+
+#description_5 {
+    grid-column: auto;
+    grid-column: 1/10;
+    padding-right: 15rem;
+    padding-left: 20rem;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    text-align: justify;
+    }
+
+#project_5 {
+    grid-column: 3/10;
+   align-items: center;
+padding-right: 33rem;
+}
+
+
+#description_6 {
+    grid-column: auto;
+    grid-column: 1/10;
+    padding-right: 15rem;
+    padding-left: 18rem;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    text-align: justify;
+    }
+
+#project_6 {
+grid-column: 3/10;
+   align-items: center;
+   padding-right: 3rem;
+
+}
+
+
+
+
+
+
+
+
 
 #bio {
 text-align: left;
