@@ -100,6 +100,8 @@ h6 {
     line-height: 3.4375rem;
     margin: 6%;
     padding-left: 10rem;
+    display: flex;
+    
 }
 
 .big_logo {
@@ -193,6 +195,7 @@ grid-auto-flow: dense;
 #project_1 {
 grid-column: 7/7;
 padding-left: 4%;
+display: flex;
 
 
 }
@@ -203,6 +206,7 @@ padding-left: 4%;
     padding-left:  18%;
     padding-right: 18%;
     padding-bottom: 2%;
+    display: flex;
     
 }
 
@@ -211,6 +215,7 @@ padding-left: 4%;
     grid-column: 3/9;
     align-items: center;
     letter-spacing: 2rem;
+    display: flex;
     
     }
 
@@ -221,6 +226,7 @@ padding-left: 4%;
     padding-top: 10%;
     text-align:justify;
     grid-column: 2/10;
+    display: flex;
 }
     
 #flex-container-portfolio {
@@ -238,6 +244,8 @@ padding-right: 18rem;
 padding-left: 18rem;
 padding-top: 8rem;
 padding-bottom: 5%;
+display: flex;
+
 }
 
 #project_4 {
