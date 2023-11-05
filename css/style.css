@@ -96,10 +96,18 @@ h6 {
 
 }
 
+#about-pss {
+padding-left: 5rem;
+padding-right: 5rem;
+text-align: center;
+
+
+}
 .big_logo {
     width: 12rem;
     display: flex;
 }
+
 
 .flex-container-index {
 display: flex;
@@ -172,6 +180,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding-left: 6rem;
+    padding-bottom: 2rem;
 }
 
 #headertop {
